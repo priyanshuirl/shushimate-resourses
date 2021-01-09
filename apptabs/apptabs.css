@@ -63,6 +63,7 @@ h2 {
     height: 100%;
     align-items: center;
     border-left: 8px solid #ff4719;
+    border-bottom: none;
   }
   .button {
     font-size: 40px;
