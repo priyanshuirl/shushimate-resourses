@@ -1,2 +1,3 @@
-# experiments
-experiments with shushi
+# resources
+Shushi resources
+
