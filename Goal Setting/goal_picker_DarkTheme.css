@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  background: #222;
+}
+#heading {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 10px 0px 10px;
+  margin: 10px 0px 0px 10px;
+  font-family: 'Lato', sans-serif;
+}
+#info {
+  padding: 20px 0px 0px 20px;
+}
+.goalpicker {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+.goaltile {
+  border-radius: 16px;
+    background-color: #222;
+    box-shadow: 0 6px 14px 0 rgba(255,71,25,.13), 0 -4px 14px 0 rgba(0,0,0,.08);
+    height : 70px;
+    width : 270px;
+    margin: 10px 5px 10px 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color : #fff;
+    border: 1px solid #ff4719;
+}
+.goalheading {
+  font-size: 15px;
+  padding: 10px 20px 0px 20px;
+}
+.goaltile i {
+  margin: 15px 0px 10px 5px;
+  font-size: 35px;
+}
+.goaltile:hover {
+  background-color: #ff4719;
+  color: #fff;
+  box-shadow: 0 6px 14px 0 rgba(255,71,25,.13), 0 -4px 14px 0 rgba(0,0,0,.08);
+}
+.goaltile p {
+  padding: 10px 5px 10px 20px;
+  font-size: 15px;
+}
+@media all and (min-width:360px) {
+  #heading {
+    font-size: 35px;
+    padding: 20px 20px 0px 15px;
+    margin: 10px 0px 10px 5px;
+  }
+  .goaltile {
+      height : 80px;
+      width : 300px;
+  }
+  .goalheading {
+    font-size: 20px;
+  }
+  .goaltile i {
+    font-size: 45px;
+  }
+}
+@media all and (min-width:600px) {
+  #heading {
+    font-size: 70px;
+    padding: 35px 20px 0px 7px;
+    margin-left: 20px;
+  }
+.goalpicker {
+  flex-direction: row;
+}
+.goaltile {
+    height : 200px;
+    width : 200px;
+    margin: 30px 10px 30px 10px;
+    flex-direction: column;
+}
+.goalheading {
+  font-size: 30px;
+}
+.goaltile i {
+  font-size: 45px;
+}
+.goaltile:hover {
+  box-shadow: 0 20px 30px 0 rgba(255,71,25,.13), 0 -4px 14px 0 rgba(0,0,0,.08);
+}
+.goaltile p {
+  padding: 10px 10px 0px 10px;
+}
+}
+@media all and (min-width:1300px) {
+  #heading {
+    font-size: 80px;
+    padding: 20px 20px 0px 20px;
+    margin: 20px 0px 10px 35px;
+  }
+.goalpicker {
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 200px;
+  padding-left: 200px;
+}
+.goaltile {
+    height : 200px;
+    width : 200px;
+    margin: 30px 20px 30px 20px;
+    flex-direction: column;
+    box-shadow: 5px 12px 28px 5px rgba(255,71,25,.13), 0 -4px 14px 0 rgba(0,0,0,.08);
+}
+.goalheading {
+  font-size: 30px;
+}
+.goaltile i {
+  font-size: 45px;
+}
+.goaltile:hover {
+  box-shadow: 0 20px 30px 0 rgba(255,71,25,.13), 0 -4px 14px 0 rgba(0,0,0,.08);
+}
+.goaltile p {
+  padding: 10px 10px 0px 10px;
+}
+}
